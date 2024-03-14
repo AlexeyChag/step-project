@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Step Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <a class="header__logo" href="#">
+          <p>e-Tutoria</p>
+        </a>
+        <div class="header-menu">
+          <button class="green-button">Explore</button>
+          <div class="header-menu-list">
+            <nav>
+              <a class="header-menu-list_link" href="#">Courses</a>
+              <a class="header-menu-list_link" href="#">Corporate training</a>
+              <div class="line"></div>
+              <p class="header-menu-list_title" href="#">Goals</p>
+              <a class="header-menu-list_link" href="#">Take a free course</a>
+              <a class="header-menu-list_link" href="#">Get a diploma</a>
+              <a class="header-menu-list_link" href="#">Get a certificate</a>
+              <a class="header-menu-list_link" href="#">Get a new profession</a>
+              <p class="header-menu-list_title" href="#">Themes</p>
+              <a class="header-menu-list_link" href="#">Data science</a>
+              <a class="header-menu-list_link" href="#">Business</a>
+              <a class="header-menu-list_link" href="#">Computer science</a>
+              <a class="header-menu-list_link" href="#">Information Technology</a>
+            </nav>
+          </div>
+        </div>
+        <form class="search_box">
+          <input type="text" class="input" placeholder="What do you want to learn?">
+          <div class="btn btn_common">
+            <img class="search-img" src="./images/search.png" alt="">
+          </div>
+        </form>
+        <div class="header__menu">
+          <nav>
+            <ul class="header__menu-list">
+              <li>
+                <a class="header__menu-link" href="#">Courses</a>
+              </li>
+              <li>
+                <a class="header__menu-link" href="#">Corporate training</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__login-links">
+          <a href="#" class="login-link">Log in</a>
+          <a href="#" class="login-link">Sign up</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="home">
+      <div class="container">
+        <div class="home-content">
+          <div class="left-part">
+            <div class="content">
+              <h1 class="home-heading">Learn comfortably</h1>
+              <div class="home-text">
+                <p>Unlimited access to 700+ courses, hands-on<br> projects, and certifications in job-critical
+                  skills<br>
+                  in one subscription</p>
+              </div>
+              <div class="home-btn">
+                <a class="btn" href="#anchor-choose">Start learning</a>
+                <a class="btn" href="#">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="image">
+            <img src="./images/hero-img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu__price" id="anchor-choose">
+      <div class="container">
+        <div class="menu__price-content">
+          <a class="menu__price-link" href="#">Academic training</a>
+          <h2 class="menu__price-title">Choose the best program for you</h2>
+          <p class="menu__price-text">An incredible opportunity to gain academic knowledge and skills online</p>
+        </div>
+        <div class="price__wrapper">
+          <a href="#" class="menu__price-card">
+            <img src="./images/academic-training/image-1.jpg" alt="">
+            <div class="price__card-info">
+              <div class="product__card-text-row">
+                <img src="./images/dan-it.png" alt="">
+                <p class="product__card-text">DAN.IT Education</p>
+              </div>
+              <h3 class="product__card-title">High-quality Israeli IT education</h3>
+              <span class="dp-link"><img src="./images/aria.png" alt="">Get a diploma</span>
+            </div>
+          </a>
+          <a href="#" class="menu__price-card">
+            <img src="./images/academic-training/image-2.jpg" alt="">
+            <div class="price__card-info">
+              <div class="product__card-text-row">
+                <img src="./images/university.png" alt="">
+                <p class="product__card-text">European University</p>
+              </div>
+              <h3 class="product__card-title">121 "Software engineering"</h3>
+              <span class="dp-link"><img src="./images/aria.png" alt="">Get a diploma</span>
+            </div>
+          </a>
+          <a href="#" class="menu__price-card">
+            <img src="./images/academic-training/image-3.jpg" alt="">
+            <div class="price__card-info">
+              <div class="product__card-text-row">
+                <img src="./images/prjctr.png" alt="">
+                <p class="product__card-text">Projector — Creative & Tech Online Institute</p>
+              </div>
+              <h3 class="product__card-title">Education that is relevant today<br> and valuable tomorrow</h3>
+              <span class="dp-link"><img src="./images/aria.png" alt="">Get a diploma</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="menu__price menu__cources">
+      <div class="container">
+        <div class="menu__price-content">
+          <a class="menu__price-link" href="#">Courses and specializations</a>
+          <h2 class="menu__price-title">Popular courses on our platform</h2>
+          <p class="menu__price-text">Choose from more than 700 courses on topics such as business analytics, graphic
+            design, Python, and more.</p>
+        </div>
+        <div class="price__wrapper">
+          <a href="#" class="menu__price-card">
+            <img src="./images/popular-courses/image1.jpg" alt="">
+            <div class="price__card-info">
+              <div class="product__card-text-row">
+                <img src="./images/dan-it.png" alt="">
+                <p class="product__card-text">DAN.IT Education</p>
+              </div>
+              <h3 class="product__card-title">UI/UX Design</h3>
+              <span class="dp-link">Course</span>
+            </div>
+          </a>
+          <a href="#" class="menu__price-card">
+            <img src="./images/popular-courses/image2.jpg" alt="">
+            <div class="price__card-info">
+              <div class="product__card-text-row">
+                <img src="./images/dan-it.png" alt="">
+                <p class="product__card-text">DAN.IT Education</p>
+              </div>
+              <h3 class="product__card-title">Full Stack Developer<br> (JavaScript + Java)</h3>
+              <span class="dp-link">Course</span>
+            </div>
+          </a>
+          <a href="#" class="menu__price-card">
+            <img src="./images/popular-courses/image3.jpg" alt="">
+            <div class="price__card-info">
+              <div class="product__card-text-row">
+                <img src="./images/dan-it.png" alt="">
+                <p class="product__card-text">DAN.IT Education</p>
+              </div>
+              <h3 class="product__card-title">Quality Assurance (QA)</h3>
+              <span class="dp-link">Course</span>
+            </div>
+          </a>
+          <a href="#" class="menu__price-card">
+            <img src="./images/popular-courses/image4.jpg" alt="">
+            <div class="price__card-info">
+              <div class="product__card-text-row">
+                <img src="./images/dan-it.png" alt="">
+                <p class="product__card-text">DAN.IT Education</p>
+              </div>
+              <h3 class="product__card-title">SMM & Content marketing</h3>
+              <span class="dp-link">Course</span>
+            </div>
+          </a>
+        </div>
+        <div class="menu__prices-btn">
+          <a class="menu__prices-link" href="#">More courses <img src="./images/arrow-right.svg" alt=""></a>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <div class="container">
+        <h3 class="categories__title">Featured topics by category</h3>
+        <div class="categories__topics">
+          <div class="categories-item">
+            <h3 class="categories__topics-title">Design</h3>
+            <p class="categories-item-text">Figma</p>
+            <p class="categories-item-price">10,909,736 students</p>
+            <p class="categories-item-text">Graphic Design</p>
+            <p class="categories-item-price">3,381,052 students</p>
+            <p class="categories-item-text">Drawing</p>
+            <p class="categories-item-price">2,410,849 students</p>
+          </div>
+          <div class="categories-item">
+            <h3 class="categories__topics-title">IT and Software</h3>
+            <p class="categories-item-text">Ethical Hacking</p>
+            <p class="categories-item-price">10,931,066 students</p>
+            <p class="categories-item-text">Amazon AWS</p>
+            <p class="categories-item-price">6,123,456 students</p>
+            <p class="categories-item-text">Cyber Security</p>
+            <p class="categories-item-price">3,998,037 students</p>
+          </div>
+          <div class="categories-item">
+            <h3 class="categories__topics-title">Development</h3>
+            <p class="categories-item-text">Web Development</p>
+            <p class="categories-item-price">11,415,615 students</p>
+            <p class="categories-item-text">Python</p>
+            <p class="categories-item-price">36,354,994 students</p>
+            <p class="categories-item-text">Machine Learning</p>
+            <p class="categories-item-price">7,070,015 students</p>
+          </div>
+          <div class="categories-item">
+            <h3 class="categories__topics-title">Business</h3>
+            <p class="categories-item-text">SQL</p>
+            <p class="categories-item-price">5,977,561 students</p>
+            <p class="categories-item-text">Financial Analysis</p>
+            <p class="categories-item-price">1,195,282 students</p>
+            <p class="categories-item-text">PMP</p>
+            <p class="categories-item-price">1,733,398 students</p>
+          </div>
+        </div>
+        <div class="menu__prices-btn">
+          <a class="menu__prices-link" href="#">More topics <img src="./images/arrow-right.svg" alt=""></a>
+        </div>
+      </div>
+    </section>
+    <section class="divader-bg">
+      <div class="container">
+        <h2 class="divader-bg__title">We cooperate with more than 50 leading<br> universities and companies</h2>
+        <div class="divader-bg__logo-list">
+          <img src="./images/companies/image-1.png" alt="">
+          <img src="./images/companies/image-2.png" alt="">
+          <img src="./images/companies/image-3.png" alt="">
+          <img src="./images/companies/image-4.png" alt="">
+          <img src="./images/companies/image-5.png" alt="">
+          <img src="./images/companies/image-6.png" alt="">
+          <img src="./images/companies/image-7.png" alt="">
+          <img src="./images/companies/image-8.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="world__class container">
+      <div class="left-part">
+        <h2 class="world__class-title">The ideal solution for your<br> business</h2>
+        <div class="world__class-text">
+          <p>We offer world-class training and development</p>
+          <p>programs popular with leading organizations around</p>
+          <p>the world. All this is on Coursera for business.</p>
+        </div>
+        <div class="home-btn">
+          <a class="btn world_btn" href="#">Contact Sales</a>
+        </div>
+      </div>
+      <div class="right-part">
+        <div class="image"><img src="./images/buisness-section/image-1.png" alt=""></div>
+        <div class="image"><img src="./images/buisness-section/image-2.png" alt=""></div>
+        <div class="image"><img src="./images/buisness-section/image-3.png" alt=""></div>
+        <div class="image"><img src="./images/buisness-section/image-4.png" alt=""></div>
+        <div class="image"><img src="./images/buisness-section/image-5.png" alt=""></div>
+        <div class="image"><img src="./images/buisness-section/image-6.png" alt=""></div>
+        <div class="image"><img src="./images/buisness-section/image-7.png" alt=""></div>
+        <div class="image"><img src="./images/buisness-section/image-8.png" alt=""></div>
+        <div class="image"><img src="./images/buisness-section/image-9.png" alt=""></div>
+      </div>
+    </section>
+    <section class="career">
+      <div class="container">
+        <div class="career__card">
+          <h3 class="career__card-titles">Choose a plan that matches your career goals</h3>
+        </div>
+        <div class="career__card-price">
+          <div class="menu__career-card">
+            <div class="menu__career-card-top">
+              <div class="career__card-text-row">
+                <h3 class="career__card-title">One training program</h3>
+              </div>
+              <p class="career__card-text">Learn one topic or master a skill and<br> get certified</p>
+              <div class="card__price">
+                <p>$ 49</p>
+                <span>/ mo</span>
+              </div>
+              <div class="home-btn">
+                <a class="btn btn-green" href="#">Get Started</a>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="description">
+              <div class="description-item">
+                <svg class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <rect width="16" height="16" rx="8" />
+                  <path d="M4 7.16667L7.33333 10.5L12 5.5" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <div class="text">
+                  Access all courses in the<br> curriculum
+                </div>
+              </div>
+              <div class="description-item">
+                <svg class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <rect width="16" height="16" rx="8" />
+                  <path d="M4 7.16667L7.33333 10.5L12 5.5" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <div class="text">
+                  Receive a certificate upon<br> completion
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu__career-card">
+            <div class="menu__career-card-top">
+              <div class="career__card-text-row">
+                <h3 class="career__card-title">e-Tutoria Plus with<br> monthly payment</h3>
+              </div>
+              <p class="career__card-text">Take several courses and get a<br> document that confirms your<br>
+                qualifications in a short time</p>
+              <div class="card__price">
+                <p>$ 79</p>
+                <span>/ mo</span>
+              </div>
+              <div class="home-btn">
+                <a class="btn btn-green" href="#">Get Started</a>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="description">
+              <div class="description-item">
+                <svg class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <rect width="16" height="16" rx="8" />
+                  <path d="M4 7.16667L7.33333 10.5L12 5.5" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <div class="text">
+                  Access 700+ courses and<br> specializations from over 50<br> leading companies and universities
+                </div>
+              </div>
+              <div class="description-item">
+                <svg class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <rect width="16" height="16" rx="8" />
+                  <path d="M4 7.16667L7.33333 10.5L12 5.5" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <div class="text">
+                  Get as many certificates as you<br> want
+                </div>
+              </div>
+              <div class="description-item">
+                <svg class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <rect width="16" height="16" rx="8" />
+                  <path d="M4 7.16667L7.33333 10.5L12 5.5" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <div class="text">
+                  Choose from over 15 professional<br> certification programs from<br> industry leaders like
+                  Google,<br> Facebook
+                  and
+                  more
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu__career-card">
+            <div class="menu__career-card-top">
+              <div class="career__card-text-row">
+                <h3 class="career__card-title">e-Tutoria Plus with<br> annual payment</h3>
+              </div>
+              <p class="career__card-text">Convenient schedule, savings and long-<br>term learning goals</p>
+              <div class="card__price">
+                <p>$ 399</p>
+                <span>/ Y</span>
+              </div>
+              <div class="home-btn">
+                <a class="btn btn-green" href="#">Get Started</a>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="description">
+              <div class="description-item">
+                <svg class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <rect width="16" height="16" rx="8" />
+                  <path d="M4 7.16667L7.33333 10.5L12 5.5" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <div class="text">
+                  Everything included in the monthly<br> billing plan
+                </div>
+              </div>
+              <div class="description-item">
+                <svg class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <rect width="16" height="16" rx="8" />
+                  <path d="M4 7.16667L7.33333 10.5L12 5.5" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <div class="text">
+                  Save when paying in advance for<br> a year
+                </div>
+              </div>
+              <div class="description-item">
+                <svg class="svg-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <rect width="16" height="16" rx="8" />
+                  <path d="M4 7.16667L7.33333 10.5L12 5.5" stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <div class="text">
+                  Learn at your own pace while<br> maintaining work-life balance
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery-title">Photos of our students</div>
+        <div class="gallery__card-list">
+          <div class="gallery__card">
+            <img src="./images/students/students-1.jpg" alt="">
+          </div>
+          <div class="gallery__card">
+            <img src="./images/students/students-9.jpg" alt="">
+          </div>
+          <div class="gallery__card">
+            <img src="./images/students/students-8.jpg" alt="">
+          </div>
+          <div class="gallery__card">
+            <img src="./images/students/students-2.jpg" alt="">
+          </div>
+          <div class="gallery__card">
+            <img src="./images/students/students-7.jpg" alt="">
+          </div>
+          <div class="gallery__card">
+            <img src="./images/students/students-3.jpg" alt="">
+          </div>
+          <div class="gallery__card">
+            <img src="./images/students/students-6.jpg" alt="">
+          </div>
+          <div class="gallery__card">
+            <img src="./images/students/students-4.jpg" alt="">
+          </div>
+          <div class="gallery__card">
+            <img src="./images/students/students-5.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <div class="form-registr">
+          <form class="form-group" action="#">
+            <h3 class="contacts-title">Contact Us</h3>
+            <p class="contacts-text">Have questions? The quickest way to get in touch<br> with us is using the
+              contact information below.</p>
+            <label for="">
+              <p>Name</p>
+              <input type="name" placeholder="Name">
+            </label>
+            <label for="">
+              <p>Email Address</p>
+              <input type="email" placeholder="Email">
+              <p>Your message</p>
+            </label>
+            <label for="">
+              <textarea id="textUser" placeholder="Enter your message"></textarea>
+            </label>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <h4>e-Tutoria</h4>
+          <p>e-Tutoria is the global online learning</p>
+          <p>platform that offers anyone,anywhere</p>
+          <p>access to online courses</p>
+        </div>
+        <div class="footer-social-icon">
+          <nav class="footer__social">
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="https://www.instagram.com/" target="_blank">
+                  <img src="./images/instagram.svg" alt="Instagram">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="https://www.facebook.com/" target="_blank">
+                  <img src="./images/facebook.svg" alt="Facebook">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="https://www.linkedin.com/" target="_blank">
+                  <img src="./images/linkedin.svg" alt="Linkedin">
+                </a>
+              </li>
+            </ul>
+            <div class="footer__social-item">
+              <p class="footer__social-text">&copy; 2023 e-Tutoria Inc. All rights reserved.</p>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
